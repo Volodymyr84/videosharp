@@ -19,7 +19,7 @@ namespace Random_1
         static void Main(string[] args)
         {
            // Console.Write("Enter number N: ");
-            int N = Convert.ToInt32(Console.ReadLine());
+            int N = int.Parse(Console.ReadLine());
             int rez = 1;
 
             for (int i = 2; i <= N; i++)
